@@ -4,6 +4,7 @@ const router = Router();
 
 router.route('/sumar').post(calculadora.sumar);
 router.route('/resta').post(calculadora.resta);
+router.route('/multiplicar').post(calculadora.multiplicar);
 router.route('/info').get(calculadora.info);
 
 
